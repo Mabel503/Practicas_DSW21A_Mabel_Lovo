@@ -1,0 +1,20 @@
+fun main() {
+    val colours = listOf("Rojo", "verde", "azul", "amarillo")
+    println(colours)
+
+    // colours.add("Rosado")
+
+    val fruits = mutableListOf("Manzana", "Pera")
+    println(fruits)
+    fruits.add("Mango")
+    println(fruits)
+    fruits.remove("Manzana")
+    println(fruits)
+
+    println(fruits.contains("Nance"))
+    val numbers = mutableListOf(1, 2, 3, 4, 5)
+    println("La lista contiene el número 6? = ${2 in numbers}")
+    
+    val notesList = mutableListOf(5.2,7.8,3.2,4.6)
+    println(notesList.average())
+}
